@@ -11,7 +11,7 @@ build_histogram = st.checkbox('Construir un histograma') # crear un botón
         
 if build_histogram: # al hacer clic en el botón
             # escribir un mensaje
-    st.write("Creación de un histograma para el precio de los autor")
+    st.write("Creación de un histograma para el precio de los autos")
             
             # crear un histograma
     fig = px.histogram(vehicles_us, x="price")
